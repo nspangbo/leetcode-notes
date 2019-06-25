@@ -66,6 +66,6 @@ class Solution {
     }
 }
 
+// test
 var nums = [1,1,2]
-
 print(Solution.init().removeDuplicates(&nums), nums)
