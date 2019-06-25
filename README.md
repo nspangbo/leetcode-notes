@@ -1,1 +1,3 @@
 # leetcode-notes
+
+To be a good coder...
