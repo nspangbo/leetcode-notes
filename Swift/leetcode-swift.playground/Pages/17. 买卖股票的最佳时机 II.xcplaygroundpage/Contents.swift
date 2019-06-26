@@ -1,8 +1,10 @@
+//: [Previous](@previous)
+
 import Foundation
 
 /*
  
-17. 买卖股票的最佳时机 II
+ 17. 买卖股票的最佳时机 II
  
  给定一个数组，它的第 i 个元素是一支给定股票第 i 天的价格。
  
@@ -50,3 +52,6 @@ class Solution {
 
 // test
 Solution.init(maxProfit([7,1,5,3,6,4]))
+
+
+//: [Next](@next)
