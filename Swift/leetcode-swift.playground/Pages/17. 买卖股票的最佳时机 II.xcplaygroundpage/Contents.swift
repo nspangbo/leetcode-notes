@@ -1,7 +1,5 @@
 //: [Previous](@previous)
 
-import Foundation
-
 /*
  
  17. 买卖股票的最佳时机 II
@@ -32,6 +30,8 @@ import Foundation
  解释: 在这种情况下, 没有交易完成, 所以最大利润为 0。
  
  */
+
+import Foundation
 
 class Solution {
     func maxProfit(_ prices: [Int]) -> Int {

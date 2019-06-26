@@ -1,7 +1,5 @@
 //: [Previous](@previous)
 
-import Foundation
-
 /*
  
  26. 从排序数组中删除重复项
@@ -42,6 +40,8 @@ import Foundation
  }
  
  */
+
+import Foundation
 
 class Solution {
     func removeDuplicates(_ nums: inout [Int]) -> Int {
