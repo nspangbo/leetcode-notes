@@ -29,6 +29,7 @@
  方案：
  1. 每次移动 1 步，移动 k 次（超出时间限制）
  2. 把第一个元素直接移动 k 步，直到所有元素都完成移动，一共移动 nums.count 次
+ 3. 分别旋转前 nums.count-k 位和后 k 位，再旋转整个数组
  
  */
 
@@ -41,24 +42,54 @@ class Solution {
             return
         }
         
-        // ways-1
-        var step = 0
-        while step < k {
-            rotateOneStep(&nums)
-            step += 1
+        let steper = k % nums.count
+        if steper == 0 {
+            return
         }
         
-        // ways-2
+        let way = 3
+        if way == 1 {
+            // ways-1
+            var step = 0
+            while step < steper {
+                rotateOneStep(&nums)
+                step += 1
+            }
+            
+        } else if way == 2 {
+            // ways-2
+            
+        } else if way == 3 {
+            // ways-3
+            rotateNums(&nums, in: Range<Int>.init(uncheckedBounds: (nums.startIndex, nums.endIndex - steper - 1)))
+            rotateNums(&nums, in: Range<Int>.init(uncheckedBounds: (nums.endIndex - steper, nums.endIndex - 1)))
+            rotateNums(&nums, in: Range<Int>.init(uncheckedBounds: (nums.startIndex, nums.endIndex - 1)))
+        }
+        
     }
     
     func rotateOneStep(_ nums: inout [Int]) {
         var newValue = nums.last!
         var tempValue = nums.last!
         
-        for (index, num) in nums.enumerated() {
+        for (index, _) in nums.enumerated() {
             tempValue = nums[index]
             nums[index] = newValue
             newValue = tempValue
+        }
+    }
+    
+    func rotateNums(_ nums: inout [Int], in range: Range<Int>) {
+        var head = range.lowerBound
+        var tail = range.upperBound
+        
+        while head < tail {
+            let temp = nums[head]
+            nums[head] = nums[tail]
+            nums[tail] = temp
+            
+            head += 1
+            tail -= 1
         }
     }
 }
