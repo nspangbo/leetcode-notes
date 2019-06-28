@@ -1,6 +1,6 @@
-# leetcode-notes
 
-To be a good coder...
+
+> To be a good coder...
 
 ## [初级算法](https://leetcode-cn.com/explore/featured/card/top-interview-questions-easy/)
 
