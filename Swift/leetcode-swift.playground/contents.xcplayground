@@ -8,5 +8,6 @@
         <page name='189. 旋转数组'/>
         <page name='217. 存在重复元素'/>
         <page name='283. 移动零'/>
+        <page name='350. 两个数组的交集 II'/>
     </pages>
 </playground>
