@@ -25,3 +25,9 @@
 |---| ----- | -------- | ---------- |
 | 344 | [反转字符串](https://leetcode-cn.com/explore/interview/card/top-interview-questions-easy/5/strings/32/) | [Swift](https://github.com/nspangbo/leetcode-notes/blob/master/Swift/leetcode-swift.playground/Pages/344.%20反转字符串.xcplaygroundpage/Contents.swift) | Easy |
 
+
+### 二叉树
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+| 144 | [二叉树的前序遍历](https://leetcode-cn.com/explore/learn/card/data-structure-binary-tree/2/traverse-a-tree/1/) | [Swift](https://github.com/nspangbo/leetcode-notes/blob/master/Swift/leetcode-swift.playground/Pages/144.%20二叉树的前序遍历.xcplaygroundpage/Contents.swift) | Easy |
