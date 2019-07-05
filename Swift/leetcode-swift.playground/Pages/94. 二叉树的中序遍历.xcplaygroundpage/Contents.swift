@@ -2,9 +2,9 @@
 
 /*
  
- 144. 二叉树的前序遍历
+ 94. 二叉树的中序遍历
  
- 给定一个二叉树，返回它的 前序 遍历。
+ 给定一个二叉树，返回它的中序 遍历。
  
  示例:
  
@@ -15,7 +15,7 @@
  /
  3
  
- 输出: [1,2,3]
+ 输出: [1,3,2]
  进阶: 递归算法很简单，你可以通过迭代算法完成吗？
  
  */
@@ -35,41 +35,42 @@ class TreeNode {
 
 class Solution {
     var result = [Int]()
-    func preorderTraversal(_ root: TreeNode?) -> [Int] {
+    func inorderTraversal(_ root: TreeNode?) -> [Int] {
         
-        //preoderRecursiveTraversal(root)
-        preoderTraversal(root)
+        //inoderRecursiveTraversal(root)
+        onoderTraversal(root)
         
         return result
     }
     
     // 递归法
-    func preoderRecursiveTraversal(_ root: TreeNode?) {
+    func inoderRecursiveTraversal(_ root: TreeNode?) {
         if root == nil {
             return
         }
         
-        preoderRecursiveTraversal(root!.left)
+        inoderRecursiveTraversal(root!.left)
         result.append(root!.val)
-        preoderRecursiveTraversal(root!.right)
+        inoderRecursiveTraversal(root!.right)
     }
     
     // 迭代法
-    func preoderTraversal(_ root: TreeNode?) {
+    func onoderTraversal(_ root: TreeNode?) {
         var currentNode = root
         var nodeStack = [TreeNode]()
         
         while currentNode != nil || !nodeStack.isEmpty {
             if currentNode != nil {
-                result.append(currentNode!.val)
                 nodeStack.append(currentNode!)
                 currentNode = currentNode?.left
             } else {
-                currentNode = nodeStack.popLast()?.right
+                let temp = nodeStack.popLast()
+                result.append(temp!.val)
+                currentNode = temp!.right
             }
         }
-        
     }
+    
 }
 
 //: [Next](@next)
