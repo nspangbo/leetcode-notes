@@ -30,5 +30,5 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-| 144 | [二叉树的前序遍历](https://leetcode-cn.com/explore/learn/card/data-structure-binary-tree/2/traverse-a-tree/1/) | [Swift](https://github.com/nspangbo/leetcode-notes/blob/master/Swift/leetcode-swift.playground/Pages/144.%20二叉树的前序遍历.xcplaygroundpage/Contents.swift) | Easy |
-| 94 | [二叉树的中序遍历](https://leetcode-cn.com/explore/learn/card/data-structure-binary-tree/2/traverse-a-tree/2/) | [Swift](https://github.com/nspangbo/leetcode-notes/blob/master/Swift/leetcode-swift.playground/Pages/94.%20二叉树的中序遍历.xcplaygroundpage/Contents.swift) | Easy |
+| 144 | [二叉树的前序遍历](https://leetcode-cn.com/explore/learn/card/data-structure-binary-tree/2/traverse-a-tree/1/) | [Swift](https://github.com/nspangbo/leetcode-notes/blob/master/Swift/leetcode-swift.playground/Pages/144.%20二叉树的前序遍历.xcplaygroundpage/Contents.swift) | Medium |
+| 94 | [二叉树的中序遍历](https://leetcode-cn.com/explore/learn/card/data-structure-binary-tree/2/traverse-a-tree/2/) | [Swift](https://github.com/nspangbo/leetcode-notes/blob/master/Swift/leetcode-swift.playground/Pages/94.%20二叉树的中序遍历.xcplaygroundpage/Contents.swift) | v |
