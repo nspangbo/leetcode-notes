@@ -2,7 +2,6 @@
 
 > To be a good coder...
 
-## [初级算法](https://leetcode-cn.com/explore/featured/card/top-interview-questions-easy/)
 
 ### 数组
 
