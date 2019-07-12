@@ -6,8 +6,11 @@
         <page name='26. 从排序数组中删除重复项'/>
         <page name='66. 加一'/>
         <page name='94. 二叉树的中序遍历'/>
+        <page name='102. 二叉树的层次遍历'/>
         <page name='136. 只出现一次的数字'/>
         <page name='144. 二叉树的前序遍历'/>
+        <page name='145. 二叉树的后序遍历'/>
+        <page name='146. LRU缓存机制'/>
         <page name='189. 旋转数组'/>
         <page name='217. 存在重复元素'/>
         <page name='283. 移动零'/>
