@@ -40,6 +40,7 @@
 | 94 | [二叉树的中序遍历](https://leetcode-cn.com/explore/learn/card/data-structure-binary-tree/2/traverse-a-tree/2/) | [Swift](https://github.com/nspangbo/leetcode-notes/blob/master/Swift/leetcode-swift.playground/Pages/94.%20二叉树的中序遍历.xcplaygroundpage/Contents.swift) | Medium |
 | 102 | [二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/submissions/) | [Swift](https://github.com/nspangbo/leetcode-notes/blob/master/Swift/leetcode-swift.playground/Pages/102.%20二叉树的层次遍历.xcplaygroundpage/Contents.swift) | Medium |
 | 226 | [翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/submissions/) | [Swift](https://github.com/nspangbo/leetcode-notes/blob/master/Swift/leetcode-swift.playground/Pages/226.%20翻转二叉树.xcplaygroundpage/Contents.swift) | Easy |
+| 104 | [二叉树的最大深度](https://leetcode-cn.com/explore/learn/card/data-structure-binary-tree/3/solve-problems-recursively/12/) | [Swift](https://github.com/nspangbo/leetcode-notes/blob/master/Swift/leetcode-swift.playground/Pages/104.%20二叉树的最大深度.xcplaygroundpage/Contents.swift) | Easy |
 
 
 ### 设计
