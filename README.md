@@ -49,3 +49,4 @@
 |---| ----- | -------- | ---------- |
 | 146 | [LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/submissions/) | [Swift](https://github.com/nspangbo/leetcode-notes/blob/master/Swift/leetcode-swift.playground/Pages/146.%20LRU缓存机制.xcplaygroundpage/Contents.swift) | Medium |
 | 622 | [设计循环队列](https://leetcode-cn.com/explore/learn/card/queue-stack/216/queue-first-in-first-out-data-structure/865/) | [Swift](https://github.com/nspangbo/leetcode-notes/blob/master/Swift/leetcode-swift.playground/Pages/622.%20设计循环队列.xcplaygroundpage/Contents.swift) | Medium |
+| 346 | [数据流中的移动平均值](https://leetcode-cn.com/explore/learn/card/queue-stack/216/queue-first-in-first-out-data-structure/868/) | [Swift](https://github.com/nspangbo/leetcode-notes/blob/master/Swift/leetcode-swift.playground/Pages/346.%20数据流中的移动平均值.xcplaygroundpage/Contents.swift) | Easy |
