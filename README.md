@@ -48,3 +48,4 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 | 146 | [LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/submissions/) | [Swift](https://github.com/nspangbo/leetcode-notes/blob/master/Swift/leetcode-swift.playground/Pages/146.%20LRU缓存机制.xcplaygroundpage/Contents.swift) | Medium |
+| 622 | [设计循环队列](https://leetcode-cn.com/explore/learn/card/queue-stack/216/queue-first-in-first-out-data-structure/865/) | [Swift](https://github.com/nspangbo/leetcode-notes/blob/master/Swift/leetcode-swift.playground/Pages/622.%20设计循环队列.xcplaygroundpage/Contents.swift) | Medium |

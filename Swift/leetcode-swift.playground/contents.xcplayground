@@ -19,5 +19,6 @@
         <page name='283. 移动零'/>
         <page name='344. 反转字符串'/>
         <page name='350. 两个数组的交集 II'/>
+        <page name='622. 设计循环队列'/>
     </pages>
 </playground>
