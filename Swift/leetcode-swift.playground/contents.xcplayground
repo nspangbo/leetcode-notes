@@ -22,5 +22,6 @@
         <page name='350. 两个数组的交集 II'/>
         <page name='622. 设计循环队列'/>
         <page name='724. 寻找数组的中心索引'/>
+        <page name='747. 至少是其他数字两倍的最大数'/>
     </pages>
 </playground>

@@ -17,7 +17,7 @@
 | 283 | [移动零](https://leetcode-cn.com/explore/featured/card/top-interview-questions-easy/1/array/28/) | [Swift](https://github.com/nspangbo/leetcode-notes/blob/master/Swift/leetcode-swift.playground/Pages/283.%20移动零.xcplaygroundpage/Contents.swift) | Easy |
 | 350 | [两个数组的交集 II](https://leetcode-cn.com/explore/featured/card/top-interview-questions-easy/1/array/26/) | [Swift](https://github.com/nspangbo/leetcode-notes/blob/master/Swift/leetcode-swift.playground/Pages/350.%20两个数组的交集%20II.xcplaygroundpage/Contents.swift) | Easy |
 | 724 | [寻找数组的中心索引](https://leetcode-cn.com/explore/learn/card/array-and-string/198/introduction-to-array/770/) | [Swift](https://github.com/nspangbo/leetcode-notes/blob/master/Swift/leetcode-swift.playground/Pages/724.%20寻找数组的中心索引.xcplaygroundpage/Contents.swift) | Easy |
-724. 
+| 747 | [至少是其他数字两倍的最大数](https://leetcode-cn.com/explore/learn/card/array-and-string/198/introduction-to-array/770/) | [Swift](https://github.com/nspangbo/leetcode-notes/blob/master/Swift/leetcode-swift.playground/Pages/747.%20至少是其他数字两倍的最大数.xcplaygroundpage/Contents.swift) | Easy |
 
 
 ### 字符串
