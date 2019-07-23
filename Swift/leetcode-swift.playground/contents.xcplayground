@@ -21,5 +21,6 @@
         <page name='346. 数据流中的移动平均值'/>
         <page name='350. 两个数组的交集 II'/>
         <page name='622. 设计循环队列'/>
+        <page name='724. 寻找数组的中心索引'/>
     </pages>
 </playground>
